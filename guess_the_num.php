@@ -33,7 +33,7 @@ if (isset($_POST["submit"]))
     <title>A simple HTML form</title>
 </head>
 
-<body>
+<body style="background-color:cyan;">
     <h3 ><?php echo $message; ?></h3>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <p>
